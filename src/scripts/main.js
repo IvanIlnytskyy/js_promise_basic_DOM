@@ -15,7 +15,7 @@ const promise2 = new Promise((resolve, reject) => {
     const success = false;
 
     if (success) {
-      resolve('Promise2 resolved!');
+      resolve();
     } else {
       reject(new Error('Promise2 rejected'));
     }
