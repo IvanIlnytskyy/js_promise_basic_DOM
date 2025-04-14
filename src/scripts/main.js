@@ -5,7 +5,7 @@ const logo = document.querySelector('.logo');
 // Обіцянка 1: вирішується після кліку
 const promise1 = new Promise((resolve) => {
   logo.addEventListener('click', () => {
-    resolve('Promise1 resolved');
+    resolve();
   });
 });
 
